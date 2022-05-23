@@ -1,0 +1,39 @@
+$primary_color:#3F5D45;
+$secondary_color: #EAF0ED;
+
+@mixin l-cardImg {
+  width: 300px;
+  height: 315px;
+  display:flex;
+  justify-content: space-between;
+  padding:0px 22px;
+  align-self: flex-start;
+}
+@mixin img-1 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true');
+}
+
+@mixin img-2 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true');
+}
+
+@mixin img-3 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-3.png?raw=true');
+}
+
+@mixin img-4 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true');
+}
+
+@mixin img-5 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true');
+}
+
+@mixin img-6 {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true');
+}
+
+
+
+
+

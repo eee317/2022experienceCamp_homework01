@@ -1,0 +1,46 @@
+.warp {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.content {
+  padding: 30px 42px 60px 42px;
+}
+.logo {
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 219px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.navgroup {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  color: $primary_color;
+  & li {
+    padding: 10px;
+    margin-right: 40px;
+  }
+}
+.cart {
+  color: $primary_color;
+  margin-left: 39px;
+}
+.banner {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true');
+  background-repeat: no-repeat;
+  width: 940px;
+  height: 496px;
+  margin-bottom: 60px;
+}
+.food {
+  display: flex;
+  width: 940px;
+}

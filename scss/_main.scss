@@ -1,0 +1,152 @@
+.dark-bgc {
+  background-color: $primary_color;
+  color: #fff;
+}
+.menu-title {
+  padding: 16px 102px;
+  font-size: 24px;
+  font-family: 'PingFang TC';
+}
+
+.meun-list {
+  padding: 16px 33px;
+  text-align: center;
+  color: $primary_color;
+  font-size: 24px;
+  font-family: 'PingFang TC';
+  border: 1px solid $secondary_color;
+  border-top: none;
+  &:hover {
+    background-color: $secondary_color;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+.mainCentent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.meun-list-select {
+  background-color: $secondary_color;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.card-featured {
+  -webkit-writing-mode: vertical-lr;
+  font-size: 16px;
+  padding: 13px 10px;
+  letter-spacing: 4px;
+  height: 107px;
+}
+
+.likeIcon {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true');
+  width: 20px;
+  height: 18px;
+  margin-top: 15px;
+}
+
+.cardImg-1 {
+  @include img-1;
+  @include l-cardImg;
+}
+
+.cardImg-2 {
+  @include img-2;
+  @include l-cardImg;
+}
+
+.cardImg-3 {
+  @include img-3;
+  @include l-cardImg;
+}
+
+.cardImg-4 {
+  @include img-4;
+  @include l-cardImg;
+}
+
+.cardImg-5 {
+  @include img-5;
+  @include l-cardImg;
+}
+
+.cardImg-6 {
+  @include img-6;
+  @include l-cardImg;
+}
+
+.card-content {
+  display: flex;
+  color: $primary_color;
+  font-size: 20px;
+  border: 1px solid $secondary_color;
+  border-top: none;
+}
+
+.card-text-l {
+  border-right: 1px solid $secondary_color;
+  padding: 14px 33px;
+}
+.card-text-r {
+  padding: 14px 20px 14px 25px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: $secondary_color;
+  padding: 16px 90px;
+  text-align: center;
+  text-decoration: none;
+  color: $primary_color;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pages {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $primary_color;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.page {
+  padding: 16px 26px;
+  height: 60px;
+  border: 1px solid $secondary_color;
+  border-left: none;
+  &:hover {
+    background-color: $secondary_color;
+  }
+}
+.page-active {
+  border: none;
+  background-color: $primary_color;
+  color: #fff;
+  border-left: none;
+  &:hover {
+    background-color: $primary_color;
+  }
+}
+.page-left {
+  border-left: 1px solid $secondary_color;
+  padding: 16px 18px;
+  height: 60px;
+}
+
+.page-right {
+  padding: 16px 18px;
+  height: 60px;
+}
+
+
